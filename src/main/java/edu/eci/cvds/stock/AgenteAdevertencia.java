@@ -7,6 +7,6 @@ public class AgenteAdevertencia implements Agente{
     @Override
     public void modificarProducto(Producto producto) {
 
-        System.out.printf("ALERTA!!! El stock del producto: %s es muy bajo, solo quedan %d unidades", producto.getNombre(), producto.getCantidad());
+        System.out.printf("\nALERTA!!! El stock del producto: %s es muy bajo, solo quedan %d unidades\n", producto.getNombre(), producto.getCantidad());
     }
 }

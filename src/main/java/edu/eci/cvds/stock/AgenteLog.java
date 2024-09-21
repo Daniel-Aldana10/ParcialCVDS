@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class AgenteLog implements Agente{
     @Override
     public void modificarProducto(Producto producto) {
-        System.out.printf("Producto: %s --> %d unidades disponibles", producto.getNombre(), producto.getCantidad());
+        System.out.printf("\nProducto: %s --> %d unidades disponibles\n", producto.getNombre(), producto.getCantidad());
     }
 }
