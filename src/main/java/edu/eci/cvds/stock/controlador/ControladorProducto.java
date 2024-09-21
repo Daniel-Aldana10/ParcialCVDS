@@ -1,5 +1,7 @@
-package edu.eci.cvds.stock;
+package edu.eci.cvds.stock.controlador;
 
+import edu.eci.cvds.stock.servicio.ServicioProducto;
+import edu.eci.cvds.stock.modelo.Producto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

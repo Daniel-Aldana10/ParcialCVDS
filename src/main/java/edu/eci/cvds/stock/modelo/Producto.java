@@ -1,4 +1,4 @@
-package edu.eci.cvds.stock;
+package edu.eci.cvds.stock.modelo;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

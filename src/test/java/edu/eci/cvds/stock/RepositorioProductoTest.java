@@ -1,5 +1,9 @@
 package edu.eci.cvds.stock;
 
+import edu.eci.cvds.stock.agentes.AgenteAdevertencia;
+import edu.eci.cvds.stock.agentes.AgenteLog;
+import edu.eci.cvds.stock.modelo.Producto;
+import edu.eci.cvds.stock.persistencia.RepositorioProducto;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

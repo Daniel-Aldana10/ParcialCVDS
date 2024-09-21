@@ -1,13 +1,14 @@
-package edu.eci.cvds.stock;
+package edu.eci.cvds.stock.persistencia;
 
-import lombok.RequiredArgsConstructor;
+import edu.eci.cvds.stock.agentes.Agente;
+import edu.eci.cvds.stock.modelo.Producto;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 
-@Repository
+
 @Component
 public class RepositorioProducto {
     private final Agente log;

@@ -1,5 +1,6 @@
-package edu.eci.cvds.stock;
+package edu.eci.cvds.stock.agentes;
 
+import edu.eci.cvds.stock.modelo.Producto;
 import org.springframework.stereotype.Component;
 
 @Component
