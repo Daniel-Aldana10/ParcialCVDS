@@ -42,13 +42,13 @@ que se modifique un producto se puedan enterar y actuar segun sea el caso.
 
 # Diagrama de clases:
 
-![imagen](https://github.com/Daniel-Aldana10/ParcialCVDS/images/diagrama_clases.png)
+![imagen](https://github.com/Daniel-Aldana10/ParcialCVDS/blob/main/images/diagrama_clases.png)
 
 # Pruebas:
 
 Se decidio solo probar la clase del repositorio de los productos que vendria siendo donde se van a guardar los productos en stock, debido a que aqui se implementa toda la
 logica del negocio, cuando se puede añadir un producto, cuando no, es el que le informa a los agentes las modificaciones que hubieron y tiene todas las funciones que son necesarias.
 
-![imagen](https://github.com/Daniel-Aldana10/ParcialCVDS/images/pruebas.png)
+![imagen](https://github.com/Daniel-Aldana10/ParcialCVDS/blob/main/images/pruebas.png)
 
 

@@ -9,12 +9,14 @@ import java.util.HashMap;
 
 @Repository
 @Component
-@RequiredArgsConstructor
 public class RepositorioProducto {
     private final Agente log;
     private final Agente advertencia;
     private HashMap<String, Producto> productos = new HashMap<>();
-
+    public RepositorioProducto(@Qualifier("agenteLog") Agente aglog, @Qualifier("agenteAdvertencia") Agente agadvertencia){
+        this.log = aglog;
+        this.advertencia = agadvertencia;
+    }
 
     /**
      * Método que agrega un producto al stock, si el precio o la cantidad es menor o igual a cero, no se agrega el producto y
